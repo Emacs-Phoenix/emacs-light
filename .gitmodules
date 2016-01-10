@@ -1,3 +1,12 @@
 [submodule "site-lisp/company-mode"]
 	path = site-lisp/company-mode
 	url = https://github.com/company-mode/company-mode
+[submodule "site-lisp/emacs-feedjs"]
+	path = site-lisp/emacs-feedjs
+	url = git@github.com:Emacs-Phoenix/emacs-feedjs.git
+[submodule "site-lisp/window-numbering.el"]
+	path = site-lisp/window-numbering.el
+	url = git@github.com:nschum/window-numbering.el.git
+[submodule "site-lisp/expand-region.el"]
+	path = site-lisp/expand-region.el
+	url = git@github.com:magnars/expand-region.el.git
