@@ -4,7 +4,14 @@
 (setq site-lisp-dir
       (expand-file-name "site-lisp" user-emacs-directory))
 
+(setq setup-dir 
+      (expand-file-name "setup" user-emacs-directory))
+
+(add-to-list 'load-path setup-dir)
 (add-to-list 'load-path site-lisp-dir)
+
+(setq custom-file (expand-file-name "custom.el" user-emacs-directory))
+(load custom-file)
 
 ;; Add external projects to load path
 (dolist (project (directory-files site-lisp-dir t "\\w+"))
@@ -124,16 +131,12 @@
 ;; that you can always see what's happening.
 (setq eval-expression-print-level nil)
 
-;; company-mode
-(require 'company)
-(require 'company-yasnippet)
-(require 'expand-region)
-(global-set-key (kbd "C-=") 'er/expand-region)
+(auto-save-mode -1)
 
 (require 'window-numbering)
 (window-numbering-mode t)
 
 
-(add-hook 'after-init-hook 'global-company-mode)
+
 
 

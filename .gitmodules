@@ -10,3 +10,9 @@
 [submodule "site-lisp/expand-region.el"]
 	path = site-lisp/expand-region.el
 	url = git@github.com:magnars/expand-region.el.git
+[submodule "site-lisp/js2-mode"]
+	path = site-lisp/js2-mode
+	url = git@github.com:Emacs-Phoenix/js2-mode.git
+[submodule "site-lisp/js2-refactor.el"]
+	path = site-lisp/js2-refactor.el
+	url = git@github.com:magnars/js2-refactor.el.git
