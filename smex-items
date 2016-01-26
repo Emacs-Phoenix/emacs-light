@@ -3,16 +3,16 @@
 (
  eval-buffer
  emacs-reload
- sp-cheat-sheet
  cd
  5x5
  arp
  dbx
+ dig
 )
 
 ;; ----- smex-data -----
 (
- (eval-buffer . 32)
+ (eval-buffer . 33)
  (emacs-reload . 3)
  (sp-cheat-sheet . 1)
 )

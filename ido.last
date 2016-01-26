@@ -2,7 +2,8 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/home/pi/.emacs.d/" . "setup/")
+ ("/home/pi/" . ".emacs.d/")
+ ("/home/pi/.emacs.d/" . "themes/")
 )
 
 ;; ----- ido-work-directory-list -----
@@ -13,23 +14,27 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "init.el"
+ "emacs-ligth.el"
+ "setup-edit.el"
  "keybinding.el"
  "lib.el"
- "setup-edit.el"
  "setup-window.el"
  "setup-move.el"
- "emacs-ligth.el"
  "setup-paredit.el"
  "setup-auto-complete.el"
  "setup-tool.el"
- "setup-yas.el"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/pi/.emacs.d/" (22183 42769 659944 339000) "auto-save-list/" "lib.el~" "lib.el" "./" "init.el" "keybinding.el~" "custom.el" "setup/" "../" "themes/" ".git/" ".gitignore~" "custom.el~" "init.el~" ".gitignore" "recentf~" "snippets/" "README.md" ".gitmodules" "emacs-ligth.el~" "site-lisp/" "keybinding.el" "recentf" "emacs-ligth.el" "history")
+ ("/home/pi/.emacs.d/" (22183 45000 666553 38000) "smex-items" "auto-save-list/" "ido.last" "lib.el~" "lib.el" "./" "init.el" "keybinding.el~" "ido.last~" "custom.el" "setup/" "../" "themes/" ".git/" ".gitignore~" "custom.el~" "init.el~" ".gitignore" "recentf~" "snippets/" "README.md" ".gitmodules" "emacs-ligth.el~" "site-lisp/" "keybinding.el" "recentf" "tags" "emacs-ligth.el" "history")
 
- ("/home/pi/.emacs.d/setup/" (22183 42819 759417 973000) "setup-edit.el~" "setup-paredit.el" "setup-edit.el" "./" "setup-paredit.el~" "setup-move.el" "setup-js.el" "../" "setup-tool.el~" "setup-auto-complete.el~" "setup-ido.el" "setup-tool.el" "setup-ido.el~" "setup-auto-complete.el" "setup-yas.el~" "setup-move.el~" "setup-js.el~" ".#setup-edit.el" "setup-window.el" "setup-yas.el")
+ ("/home/pi/" (22183 44920 867379 956000) ".nvm/" ".spacemacs.d/" "Desktop/" "python_games/" ".fzf/" "bin/" ".Xauthority" ".asoundrc" ".idlerc/" ".npm/" ".xmodmappings~" "Documents/" "Pictures/" ".mplayer/" ".fzf.bash" ".gem/" ".semantic-highlight-cache" ".viminfo" "./" ".mednafen/" ".aptitude/" "zgen/" ".wakatime.data" ".dbus/" "Music/" ".zcompdump-raspberrypi-5.0.7" "2016-01-22-001427_800x480_scrot.png" ".zsh_history" ".local/" ".zcompdump" ".icons/" ".bashrc" "PROJECT/" ".xsession-errors" ".gstreamer-0.10/" "2016-01-22-001353_800x480_scrot.png" ".emacs.d/" ".npmrc" "Videos/" "../" "Demo/" ".ssh/" ".wakatime.db" "Game/" ".gemrc" ".bluej/" ".zgen/" ".zsh-update" "Templates/" ".gitconfig" ".gconf/" ".gnupg/" ".bash_history" ".wakatime.log" "Source/" ".cache/" ".pip/" ".xsession-errors.old" ".vim/" ".node_repl_history" ".wakatime.cfg" ".kivy/" ".fzf.zsh" ".xmodmappings" "2016-01-22-001432_800x480_scrot.png" ".Mathematica/" ".WolframEngine/" "Public/" ".themes/" ".bash_logout" ".profile" ".java/" ".thumbnails/" ".minecraft/" "2016-01-22-001431_800x480_scrot.png" ".gtkrc-2.0" ".fontconfig/" ".config/" "2016-01-22-001426_800x480_scrot.png" "Downloads/" "2016-01-22-001350_800x480_scrot.png" ".zshrc" ".nvimlog")
+
+ ("/home/pi/.emacs.d/themes/" (22183 34759 767995 555000) "zenburn-theme.el" "./" "../" "README.md" "monokai-theme.el")
+
+ ("/home/pi/.emacs.d/setup/" (22183 44790 408677 509000) "setup-edit.el~" "setup-paredit.el" "setup-edit.el" "./" "setup-paredit.el~" "setup-move.el" "setup-js.el" "../" "setup-tool.el~" "setup-auto-complete.el~" "setup-ido.el" "setup-tool.el" "setup-ido.el~" "setup-auto-complete.el" "setup-yas.el~" "setup-move.el~" "setup-js.el~" "setup-window.el" "setup-yas.el")
 )
 
 ;; ----- ido-unc-hosts-cache -----

@@ -25,8 +25,6 @@
 (require 'setup-edit)
 (require 'setup-move)
 
-(setq custom-file (expand-file-name "custom.el" user-emacs-directory))
-(load custom-file)
 
 
 (load (expand-file-name "keybinding.el" user-emacs-directory))
@@ -152,6 +150,8 @@
 
 (auto-save-mode -1)
 
+(setq custom-file (expand-file-name "custom.el" user-emacs-directory))
+(load custom-file)
 
 
 
