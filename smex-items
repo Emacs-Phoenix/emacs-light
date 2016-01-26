@@ -1,0 +1,18 @@
+
+;; ----- smex-history -----
+(
+ eval-buffer
+ emacs-reload
+ sp-cheat-sheet
+ cd
+ 5x5
+ arp
+ dbx
+)
+
+;; ----- smex-data -----
+(
+ (eval-buffer . 32)
+ (emacs-reload . 3)
+ (sp-cheat-sheet . 1)
+)

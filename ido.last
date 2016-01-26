@@ -1,0 +1,36 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/pi/.emacs.d/" . "setup/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/pi/.emacs.d/"
+ "/home/pi/.emacs.d/setup/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "keybinding.el"
+ "lib.el"
+ "setup-edit.el"
+ "setup-window.el"
+ "setup-move.el"
+ "emacs-ligth.el"
+ "setup-paredit.el"
+ "setup-auto-complete.el"
+ "setup-tool.el"
+ "setup-yas.el"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/pi/.emacs.d/" (22183 42769 659944 339000) "auto-save-list/" "lib.el~" "lib.el" "./" "init.el" "keybinding.el~" "custom.el" "setup/" "../" "themes/" ".git/" ".gitignore~" "custom.el~" "init.el~" ".gitignore" "recentf~" "snippets/" "README.md" ".gitmodules" "emacs-ligth.el~" "site-lisp/" "keybinding.el" "recentf" "emacs-ligth.el" "history")
+
+ ("/home/pi/.emacs.d/setup/" (22183 42819 759417 973000) "setup-edit.el~" "setup-paredit.el" "setup-edit.el" "./" "setup-paredit.el~" "setup-move.el" "setup-js.el" "../" "setup-tool.el~" "setup-auto-complete.el~" "setup-ido.el" "setup-tool.el" "setup-ido.el~" "setup-auto-complete.el" "setup-yas.el~" "setup-move.el~" "setup-js.el~" ".#setup-edit.el" "setup-window.el" "setup-yas.el")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

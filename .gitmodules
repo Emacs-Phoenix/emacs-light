@@ -16,3 +16,54 @@
 [submodule "site-lisp/js2-refactor.el"]
 	path = site-lisp/js2-refactor.el
 	url = git@github.com:magnars/js2-refactor.el.git
+[submodule "site-lisp/dash.el"]
+	path = site-lisp/dash.el
+	url = git@github.com:magnars/dash.el.git
+[submodule "site-lisp/s.el"]
+	path = site-lisp/s.el
+	url = git@github.com:magnars/s.el.git
+[submodule "site-lisp/ido-ubiquitous"]
+	path = site-lisp/ido-ubiquitous
+	url = git@github.com:DarwinAwardWinner/ido-ubiquitous.git
+[submodule "site-lisp/multiple-cursors.el"]
+	path = site-lisp/multiple-cursors.el
+	url = git@github.com:magnars/multiple-cursors.el.git
+[submodule "site-lisp/yasnippet"]
+	path = site-lisp/yasnippet
+	url = git@github.com:capitaomorte/yasnippet.git
+[submodule "site-lisp/hippie"]
+	path = site-lisp/hippie
+	url = git@github.com:Emacs-Phoenix/hippie.git
+[submodule "site-lisp/flx"]
+	path = site-lisp/flx
+	url = git@github.com:lewang/flx.git
+[submodule "site-lisp/smex"]
+	path = site-lisp/smex
+	url = git@github.com:nonsequitur/smex.git
+[submodule "site-lisp/tern"]
+	path = site-lisp/tern
+	url = git@github.com:ternjs/tern.git
+[submodule "site-lisp/paredit"]
+	path = site-lisp/paredit
+	url = git@github.com:emacsmirror/paredit.git
+[submodule "snippets"]
+	path = snippets
+	url = git@github.com:Emacs-Phoenix/snippets.git
+[submodule "site-lisp/popup-el"]
+	path = site-lisp/popup-el
+	url = git@github.com:auto-complete/popup-el.git
+[submodule "site-lisp/company-tern"]
+	path = site-lisp/company-tern
+	url = git@github.com:proofit404/company-tern.git
+[submodule "site-lisp/smartparens"]
+	path = site-lisp/smartparens
+	url = git@github.com:Fuco1/smartparens.git
+[submodule "site-lisp/smart-forward.el"]
+	path = site-lisp/smart-forward.el
+	url = git@github.com:magnars/smart-forward.el.git
+[submodule "site-lisp/avy"]
+	path = site-lisp/avy
+	url = git@github.com:abo-abo/avy.git
+[submodule "site-lisp/edit-sword"]
+	path = site-lisp/edit-sword
+	url = git@github.com:Emacs-Phoenix/edit-sword.git

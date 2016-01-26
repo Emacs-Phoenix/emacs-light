@@ -1,5 +1,3 @@
-
-
 ;; load dir setting file
 (setq site-lisp-dir
       (expand-file-name "site-lisp" user-emacs-directory))
@@ -10,13 +8,32 @@
 (add-to-list 'load-path setup-dir)
 (add-to-list 'load-path site-lisp-dir)
 
-(setq custom-file (expand-file-name "custom.el" user-emacs-directory))
-(load custom-file)
-
 ;; Add external projects to load path
 (dolist (project (directory-files site-lisp-dir t "\\w+"))
   (when (file-directory-p project)
     (add-to-list 'load-path project)))
+
+(load (expand-file-name "lib.el" user-emacs-directory))
+
+(require 'setup-window)
+(require 'setup-auto-complete)
+(require 'setup-js)
+(require 'setup-tool)
+(require 'setup-ido)
+(require 'setup-paredit)
+(require 'setup-yas)
+(require 'setup-edit)
+(require 'setup-move)
+
+(setq custom-file (expand-file-name "custom.el" user-emacs-directory))
+(load custom-file)
+
+
+(load (expand-file-name "keybinding.el" user-emacs-directory))
+
+
+
+
 
 (if (fboundp 'menu-bar-mode) (menu-bar-mode -1))
 (if (fboundp 'tool-bar-mode) (tool-bar-mode -1))
@@ -33,6 +50,8 @@
 (global-hl-line-mode 1)
 
 (setq custom-theme-directory (concat user-emacs-directory "themes"))
+
+(add-to-list 'custom-theme-load-path custom-theme-directory)
 
 (dolist
     (path (directory-files custom-theme-directory t "\\w+"))
@@ -133,8 +152,7 @@
 
 (auto-save-mode -1)
 
-(require 'window-numbering)
-(window-numbering-mode t)
+
 
 
 
