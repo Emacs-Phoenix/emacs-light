@@ -3,4 +3,6 @@ tags
 custom.el
 smex-items
 recentf
+history
+ido.last
 auto-save-list
