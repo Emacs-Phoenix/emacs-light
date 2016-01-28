@@ -1,4 +1,3 @@
-
 (require 'redo+)
 
 (global-set-key (kbd "M-_") 'redo)
@@ -24,6 +23,7 @@
 (define-key global-map (kbd "C-S-O") 'vi-open-line-above)
 (define-key global-map [(meta shift ?o)] 'vi-open-line-above)
 
-
+(require 'multiple-cursors)
+(require 'visual-regexp)
 
 (provide 'setup-edit)

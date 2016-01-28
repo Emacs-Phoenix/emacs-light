@@ -62,27 +62,26 @@
 
 (defun pair-jump-or-tab ()
   (interactive)
-  
-  (let ((after-char (string (char-after)))
-        (before-char (string (char-before))))
-    (if (region-active-p)
-        (let ((start (region-beginning))
-              (end (region-end)))
-          (indent-region start end))      
+  (if (region-active-p)
+      (let ((start (region-beginning))
+            (end (region-end)))
+        (indent-region start end))
+    (let ((after-char (string (char-after)))
+          (before-char (string (char-before))))
       (cond ((or (equal after-char "(")
                  (equal after-char "{")
                  (equal after-char "\"")
                  (equal after-char "["))
              (forward-sexp))
-            ((or (equal before-char ")")
+            ((or
+              (equal before-char ")")
               (equal before-char "}")
               (equal before-char "\"")
               (equal before-char "]"))
              (backward-sexp))
             ;; (t
             ;;  (indent-for-tab-command))
-            ))
-    ))
+            ))))
 
 (advice-add 'tab-indent-or-complete :before #'pair-jump-or-tab)
 

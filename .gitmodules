@@ -67,3 +67,6 @@
 [submodule "site-lisp/edit-sword"]
 	path = site-lisp/edit-sword
 	url = git@github.com:Emacs-Phoenix/edit-sword.git
+[submodule "site-lisp/visual-regexp.el"]
+	path = site-lisp/visual-regexp.el
+	url = git@github.com:benma/visual-regexp.el.git
