@@ -1,8 +1,4 @@
 ;;Key binding
-(global-unset-key "\C-z")
-
-
-
 
 (global-set-key (kbd "C-\"") 'toggle-quotes)
 
@@ -19,7 +15,6 @@
 
 (global-set-key (kbd "M-w") 'save-region-or-current-line)
 
-(global-set-key (kbd "C-S-h") 'sp-splice-sexp)
 
 ;;; 
 

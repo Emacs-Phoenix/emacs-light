@@ -73,3 +73,9 @@
 [submodule "site-lisp/learn-word.el"]
 	path = site-lisp/learn-word.el
 	url = git@github.com:Emacs-Phoenix/learn-word.el.git
+[submodule "site-lisp/hungry-delete.el"]
+	path = site-lisp/hungry-delete.el
+	url = git@github.com:Emacs-Phoenix/hungry-delete.el.git
+[submodule "site-lisp/emacs-boilerplate"]
+	path = site-lisp/emacs-boilerplate
+	url = git@github.com:Emacs-Phoenix/emacs-boilerplate.git

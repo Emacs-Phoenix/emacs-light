@@ -26,11 +26,10 @@
 (require 'setup-move)
 
 
+(setq boilerplate-path "~/boilerplate")
+(require 'emacs-boilerplate)
 
 (load (expand-file-name "keybinding.el" user-emacs-directory))
-
-
-
 
 
 (if (fboundp 'menu-bar-mode) (menu-bar-mode -1))

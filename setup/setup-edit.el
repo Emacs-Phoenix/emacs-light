@@ -26,4 +26,10 @@
 (require 'multiple-cursors)
 (require 'visual-regexp)
 
+(require 'hungry-delete)
+(hungry-keyboard global-map)
+
+(global-set-key (kbd "C-S-h") 'sp-splice-sexp)
+
+
 (provide 'setup-edit)
