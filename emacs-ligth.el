@@ -152,7 +152,9 @@
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
 (load custom-file)
 
-
+(require 'chinese-pyim)
+(setq default-input-method "chinese-pyim")
+(global-set-key (kbd "C-\\") 'toggle-input-method)
 
 
 

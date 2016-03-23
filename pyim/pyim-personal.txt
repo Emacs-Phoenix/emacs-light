@@ -1,0 +1,7 @@
+;; -*- coding: utf-8 -*-
+c 操
+c-d 操单
+cao 操
+cao-dan 操单
+d 单
+dan 单

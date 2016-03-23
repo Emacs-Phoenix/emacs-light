@@ -79,3 +79,9 @@
 [submodule "site-lisp/emacs-boilerplate"]
 	path = site-lisp/emacs-boilerplate
 	url = git@github.com:Emacs-Phoenix/emacs-boilerplate.git
+[submodule "site-lisp/emacs-request"]
+	path = site-lisp/emacs-request
+	url = git@github.com:tkf/emacs-request.git
+[submodule "site-lisp/chinese-pyim"]
+	path = site-lisp/chinese-pyim
+	url = git@github.com:tumashu/chinese-pyim.git
