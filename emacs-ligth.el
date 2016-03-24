@@ -24,7 +24,7 @@
 (require 'setup-yas)
 (require 'setup-edit)
 (require 'setup-move)
-
+(require 'setup-feed)
 
 (setq boilerplate-path "~/boilerplate")
 (require 'emacs-boilerplate)

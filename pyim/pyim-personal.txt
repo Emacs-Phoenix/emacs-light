@@ -1,7 +1,14 @@
 ;; -*- coding: utf-8 -*-
 c 操
 c-d 操单
+c-n 草拟
 cao 操
 cao-dan 操单
-d 单
+cao-ni 草拟
+d 大 单
+da 大
 dan 单
+h-h 哈哈
+h-h-d 哈哈大
+ha-ha 哈哈
+ha-ha-da 哈哈大

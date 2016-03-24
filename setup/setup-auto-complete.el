@@ -39,8 +39,4 @@
 (require 'hippie)
 (global-set-key (kbd "C-.") 'hippie-expand-no-case-fold)
 
-
-
-
-
 (provide 'setup-auto-complete)

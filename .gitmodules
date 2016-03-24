@@ -85,3 +85,6 @@
 [submodule "site-lisp/chinese-pyim"]
 	path = site-lisp/chinese-pyim
 	url = git@github.com:tumashu/chinese-pyim.git
+[submodule "site-lisp/emacs-translate"]
+	path = site-lisp/emacs-translate
+	url = git@github.com:Emacs-Phoenix/emacs-translate.git
